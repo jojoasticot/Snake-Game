@@ -1,0 +1,37 @@
+.snake{
+    background-color: red;
+}
+
+.apple{
+    background-color: lime;
+}
+
+.vide{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    font-family: "Noto Sans";
+}
+
+#main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+td{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+table{
+    margin-bottom: 10px;
+}
+
+caption{
+    margin-bottom: 10px;
+}

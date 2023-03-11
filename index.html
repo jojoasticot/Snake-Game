@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main">
+    <table id="table" cellspacing="0">
+        <caption>Le snake de Jojo !!!</caption>
+    </table>
+    <p style="font-size: large; color: rgb(127, 142, 222);">Score : <span id="score">0</span> Meilleur score: <span id="Hscore">0</span></p>
+    <p>Selectionner une vitesse:</p>
+    <input type="radio" name="vitesse" onclick="changer_vitesse('lent')">
+        <label for="lent">Lent</label>
+
+    <input type="radio" name="vitesse" onclick="changer_vitesse('normal')" checked>
+        <label for="normal">Normal</label>
+        
+    <input type="radio" name="vitesse" onclick="changer_vitesse('rapide')">
+        <label for="rapide">Rapide</label>
+    </div>
+    <script src="js/script2.js"></script>
+</body>
+</html>
